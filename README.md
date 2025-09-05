@@ -1,0 +1,2 @@
+# jellyfin-blurtheme
+jellyfin theme

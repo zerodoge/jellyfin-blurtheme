@@ -1,0 +1,47 @@
+.backdropContainer{filter: blur(7px);}
+.backgroundContainer.withBackdrop {background-color: rgba(0, 0, 0, 0.7) !important;}
+.skinHeader-withBackground {background-color: rgba(0, 0, 0, 0.7) !important;}
+.drawer-open {background-color: rgba(0,0,0,0.7) !important;backdrop-filter: blur(7px);-webkit-backdrop-filter: blur(7px); /* 兼容Safari浏览器 */box-shadow: 3px 0 10px rgb(0, 0, 0);}
+.dialog,.nowPlayingPlaylist,.nowPlayingContextMenu,html {background-color: rgba(0, 0, 0, 0.5) !important;backdrop-filter: blur(7px);-webkit-backdrop-filter: blur(7px); /* 兼容Safari浏览器 */box-shadow: 0 0 20px rgb(0, 0, 0);}
+.listItem:hover {background:  rgba(0, 0, 0, 0.3) !important;}
+.layout-desktop .detailRibbon {height: 9.2em !important;margin-top: -6.2em !important;}
+.listItem.listItem-largeImage.listItem-withContentWrapper {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.listItem.listItem-largeImage.listItem-withContentWrapper:hover, .listItem.listItem-largeImage.listItem-withContentWrapper:focus, .listItem.listItem-largeImage.listItem-withContentWrapper:active {
+  -webkit-transform: translateY(-8px);
+  transform: scale(1.1);
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.card {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.card:hover, .card:focus, .card:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-15px) scale(1.1);
+}
+.padded-top-focusscale {
+  overflow: visible !important;
+}
+.skinHeader-withBackground {backdrop-filter: blur(7px);-webkit-backdrop-filter: blur(7px); /* 兼容Safari浏览器 */box-shadow: 0 3px 10px rgb(0, 0, 0);}

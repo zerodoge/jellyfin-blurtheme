@@ -1,7 +1,7 @@
 # jellyfin-blurtheme
 jellyfin theme
 
-增加各种模糊效果
+增加一点模糊效果
 
 为卡片添加鼠标悬浮动画
 
